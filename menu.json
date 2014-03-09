@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Basic",
+        "caption": "import package java",
+        "query": "import package"
+    },
+    {
+        "title": "Basic",
+        "caption": "console print Java",
+        "query": "console print"
+    },
+    {
+        "title": "Basic",
+        "caption": "parseInt Java",
+        "query": "parseInt"
+    },   
+    {
+        "title": "Data Structure",
+        "caption": "create hashmap Java",
+        "query": "create hashmap"
+    },
+    {
+        "title": "Data Structure",
+        "caption": "create arraylist Java",
+        "query": "create arraylist"
+    },
+    {
+        "title": "Data Structure",
+        "caption": "create dictionary Java",
+        "query": "create dictionary"
+    },
+    {
+        "title": "Databases",
+        "caption": "establish database connection Java",
+        "query": "establish database connection"
+    },
+    {
+        "title": "Databases",
+        "caption": "sql commit java",
+        "query": "sql commit"
+    }
+]

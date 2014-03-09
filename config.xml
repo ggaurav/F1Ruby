@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        version="1.0.0.5" id="F1Ruby" xml:lang="en">
+  <author href="http://www.example.com/"
+          rim:copyright="Copyright 1998-2013 Gaurav Jain">Gaurav Jain</author>
+  <name>F1_Ruby</name>
+  <icon src="images/icon.png"/>
+  <content src="index.html"/>
+  <feature id="blackberry.identity" required="true" version="1.0.0.0"/>
+  <access subdomains="true" uri="*"/>
+  <rim:navigation mode="focus"/>
+</widget>

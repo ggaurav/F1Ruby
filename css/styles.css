@@ -1,0 +1,71 @@
+@media screen and (orientation:portrait) { 
+			.container {
+				width: 580px;
+			}
+			.sidebar {
+					min-height: 980px;	
+			}
+			.content {
+					min-height: 980px;	
+					background-image:url(../images/guitar-portrait.png);
+			}
+
+	}
+	@media screen and (orientation:landscape) { 
+			.container {
+				width: 1000px;
+			}
+			.sidebar {
+					min-height: 550px;	
+			}
+			.content {
+					min-height: 550px;	
+					background-image:url(../images/guitar.png);
+			}
+	}
+
+	.header {
+		width: 100%;
+		height: 30px;
+		background-color:#000;
+		text-align:center;
+		color:#FFF;
+	}
+	.sidebar {
+			float:left;
+			width:25%;
+			background-color:#666;		
+			height: auto;
+	}
+	
+	.sidebar > ul {
+			list-style-type:none;	
+			line-height: 1.7;	
+	}
+	.sidebar > ul  li{
+			height: 30px;
+			background-color:#CCC;				
+			padding-left: 10px;
+			background-image:url(../images/right-arrow.png);
+			background-position:right;
+			background-repeat:no-repeat;
+			color: white;
+			font-weight:bold;
+	}		
+	
+	.content {		
+		height: auto;		
+		
+		background-position:right;
+		background-repeat: no-repeat;
+	}
+	
+	.rsearchlbl {
+			color:#FFF;
+			font-weight:bold; 
+			margin-left: 5px;
+	}
+	.historylist {
+			height:auto;
+			overflow:auto;
+	}
